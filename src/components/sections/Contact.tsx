@@ -2,7 +2,7 @@ import { profile } from "@/data/profile";
 
 export default function Contact() {
   return (
-    <section id="contact" className="mx-auto max-w-3xl px-6 py-32 text-center">
+    <section id="contact" className="mx-auto max-w-3xl px-6 py-16 sm:py-24 text-center">
       <h2 className="mb-6 text-3xl font-bold text-white after:mt-3 after:block after:h-1 after:w-12 after:rounded-full after:bg-[#8b5cf6]">Contacto</h2>
       <p className="text-gray-300">
         ¿Quieres hablar conmigo? Escríbeme por email o encuéntrame en estas redes.

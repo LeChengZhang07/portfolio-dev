@@ -2,7 +2,7 @@ import { projects } from "@/data/projects";
 
 export default function Projects() {
   return (
-    <section id="projects" className="mx-auto max-w-5xl px-6 py-32">
+    <section id="projects" className="mx-auto max-w-5xl px-6 py-16 sm:py-24">
       <h2 className="mb-10 text-3xl font-bold text-white after:mt-3 after:block after:h-1 after:w-12 after:rounded-full after:bg-[#8b5cf6]">
         Proyectos
       </h2>
