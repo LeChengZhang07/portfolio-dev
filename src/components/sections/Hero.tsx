@@ -3,7 +3,7 @@ import { profile } from "@/data/profile";
 export default function Hero() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
-      <p className="mb-4 text-sm uppercase tracking-widest text-gray-400">
+      <p className="mb-4 text-sm uppercase tracking-widest text-[#8b5cf6]">
         {profile.role}
       </p>
       <h1 className="text-4xl font-bold text-white sm:text-6xl">
@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="mt-8 flex gap-4">
         <a
           href="#projects"
-          className="rounded-full bg-white px-6 py-3 font-medium text-black hover:bg-gray-200 transition-colors"
+          className="rounded-full bg-[#8b5cf6] px-6 py-3 font-medium text-black hover:bg-[#7c3aed] transition-colors"
         >
           Ver proyectos
         </a>
