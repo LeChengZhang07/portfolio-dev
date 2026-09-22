@@ -1,4 +1,5 @@
 import { skills, languages } from "@/data/skills";
+import FadeIn from "@/components/layout/FadeIn";
 
 const groups = [
   { title: "Lenguajes", items: skills.lenguajes },
@@ -9,7 +10,8 @@ const groups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="mx-auto max-w-5xl px-6 py-16 sm:py-24">
+    <section id="skills" className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+      <FadeIn>
       <h2 className="mb-10 text-3xl font-bold text-white after:mt-3 after:block after:h-1 after:w-12 after:rounded-full after:bg-[#8b5cf6]">Skills</h2>
       <div className="grid gap-8 sm:grid-cols-2">
         {groups.map((group) => (
@@ -37,6 +39,7 @@ export default function Skills() {
           </li>
         ))}
       </ul>
+      </FadeIn>
     </section>
   );
 }
